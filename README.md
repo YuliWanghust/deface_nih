@@ -18,9 +18,21 @@ This retrospective study was approved by the Institutional Review Boards of John
 
 ## Dafec methods and implementation details
 
-### Quickshear
-- **GitHub:** https://github.com/nipy/quickshear
-- **Latest release:** **v1.1.0** (May 23, 2017) :contentReference[oaicite:0]{index=0}
+### 🩻 Quickshear
+
+**Version:** `v1.1.0` (May 23, 2017)  
+**Repository:** [nipy/quickshear](https://github.com/nipy/quickshear)
+
+Quickshear removes facial features by defining a **shearing plane** separating the brain from the face and setting all voxels anterior to the plane to zero.  
+The plane is derived from a brain mask (e.g., via BET) and propagated across all sagittal slices.  
+A tunable buffer controls how aggressively the face is removed.
+
+#### 🔧 Installation
+"
+pip install quickshear
+# or clone
+git clone https://github.com/nipy/quickshear
+"
 
 ### Deface (Deep Learning)
 - **GitHub:** https://github.com/yeonuk-Jeong/Defacer
