@@ -67,8 +67,10 @@ export PATH=$PATH:$PWD/mri_reface_v0.3.5
 ## Downstream tasks
 
 ### Brain Sementations
-
 **Freesurfer:** [Freesurfer](https://github.com/freesurfer/freesurfer)
 
 **SLANT:** [SLANT](https://github.com/MASILab/SLANTbrainSeg)
+
+### Representative slides selection
+**Vote-MI:** [Freesurfer](https://github.com/YuliWanghust/BrainMD_NIPS)
 
