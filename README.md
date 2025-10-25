@@ -16,7 +16,7 @@ This retrospective study was approved by the Institutional Review Boards of John
 | Brain Tumor MRI Dataset   | 2453        | 200           | NiFTI  |
 | ED CT Head Dataset        | 33,128      | 200           | DICOM  |
 
-## Dafec methods and implementation details
+## Deface methods and implementation details
 
 ### Quickshear
 
@@ -63,3 +63,10 @@ wget https://www.nitrc.org/frs/download.php/13678/mri_reface_v0.3.5_Linux.zip
 unzip mri_reface_v0.3.5_Linux.zip
 export PATH=$PATH:$PWD/mri_reface_v0.3.5
 ```
+
+## Downstream tasks
+
+### Brain Sementations
+**Freesurfer:** [nipy/Freesurfer]([https://github.com/nipy/quickshear](https://github.com/freesurfer/freesurfer))
+**SLANT:** [nipy/SLANT]([https://github.com/nipy/quickshear](https://github.com/MASILab/SLANTbrainSeg))
+
