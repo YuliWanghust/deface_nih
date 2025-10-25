@@ -18,7 +18,7 @@ This retrospective study was approved by the Institutional Review Boards of John
 
 ## Dafec methods and implementation details
 
-### 🩻 Quickshear
+### Quickshear
 
 **Version:** `v1.1.0` (May 23, 2017)  
 **Repository:** [nipy/quickshear](https://github.com/nipy/quickshear)
@@ -35,9 +35,31 @@ git clone https://github.com/nipy/quickshear
 ```
 
 ### Deface (Deep Learning)
-- **GitHub:** https://github.com/yeonuk-Jeong/Defacer
-- **Repo versions:** **ver.0.1**, **ver.0.2** (no formal GitHub “Releases”; latest code under `ver.0.2/`) :contentReference[oaicite:1]{index=1}
+**Version:**: ver.0.2 (latest commit, November 2020)
+**Repository:**: yeonuk-Jeong/Defacer
+
+Defacer is the first open-source deep learning–based anonymization tool.
+It uses a 3D attention-gated U-Net trained on 240 whole-head MRIs from ADNI to detect and modify facial features (eyes, ears, nose, mouth) while preserving the brain.
+Validated on 100 OASIS MRIs.
+
+#### Installation
+```
+git clone https://github.com/yeonuk-Jeong/Defacer
+cd Defacer
+pip install tensorflow==1.14 keras==2.2.4 nibabel
+```
 
 ### Reface (mri_reface)
-- **Home (no official GitHub):** https://www.nitrc.org/projects/mri_reface
-- **Notable releases:** **v0.3** (Jul 15, 2022), **v0.3.2** (May 2, 2023), **v0.3.5** (Mar 25, 2025). Earlier **v0.2** also widely referenced in studies. :contentReference[oaicite:2]{index=2}
+**Version:**: v0.2, v0.3, and latest v0.3.5 (Dec 2024)
+**Repository:**: mri_reface on NITRC
+
+Reface replaces (rather than removes) facial voxels.
+An average face is registered to the subject using ANTs or NiftyReg, and the warped face is blended into the image with bias correction and intensity harmonization.
+This preserves brain structures while anonymizing facial identity.
+
+#### Installation
+```
+wget https://www.nitrc.org/frs/download.php/13678/mri_reface_v0.3.5_Linux.zip
+unzip mri_reface_v0.3.5_Linux.zip
+export PATH=$PATH:$PWD/mri_reface_v0.3.5
+```
