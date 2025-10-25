@@ -15,3 +15,17 @@ This retrospective study was approved by the Institutional Review Boards of John
 | NPH MRI Dataset           | 534         | 200           | DICOM  |
 | Brain Tumor MRI Dataset   | 2453        | 200           | NiFTI  |
 | ED CT Head Dataset        | 33,128      | 200           | DICOM  |
+
+## Dafec methods and implementation details
+
+### Quickshear
+- **GitHub:** https://github.com/nipy/quickshear
+- **Latest release:** **v1.1.0** (May 23, 2017) :contentReference[oaicite:0]{index=0}
+
+### Deface (Deep Learning)
+- **GitHub:** https://github.com/yeonuk-Jeong/Defacer
+- **Repo versions:** **ver.0.1**, **ver.0.2** (no formal GitHub “Releases”; latest code under `ver.0.2/`) :contentReference[oaicite:1]{index=1}
+
+### Reface (mri_reface)
+- **Home (no official GitHub):** https://www.nitrc.org/projects/mri_reface
+- **Notable releases:** **v0.3** (Jul 15, 2022), **v0.3.2** (May 2, 2023), **v0.3.5** (Mar 25, 2025). Earlier **v0.2** also widely referenced in studies. :contentReference[oaicite:2]{index=2}
