@@ -27,12 +27,12 @@ Quickshear removes facial features by defining a **shearing plane** separating t
 The plane is derived from a brain mask (e.g., via BET) and propagated across all sagittal slices.  
 A tunable buffer controls how aggressively the face is removed.
 
-#### 🔧 Installation
-"
+#### Installation
+```
 pip install quickshear
 # or clone
 git clone https://github.com/nipy/quickshear
-"
+```
 
 ### Deface (Deep Learning)
 - **GitHub:** https://github.com/yeonuk-Jeong/Defacer
