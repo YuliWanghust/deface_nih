@@ -35,8 +35,8 @@ git clone https://github.com/nipy/quickshear
 ```
 
 ### Deface (Deep Learning)
-**Version:**: ver.0.2 (latest commit, November 2020)
-**Repository:**: yeonuk-Jeong/Defacer
+**Version:** ver.0.2 (latest commit, November 2020)
+**Repository:** yeonuk-Jeong/Defacer
 
 Defacer is the first open-source deep learning–based anonymization tool.
 It uses a 3D attention-gated U-Net trained on 240 whole-head MRIs from ADNI to detect and modify facial features (eyes, ears, nose, mouth) while preserving the brain.
@@ -50,8 +50,8 @@ pip install tensorflow==1.14 keras==2.2.4 nibabel
 ```
 
 ### Reface (mri_reface)
-**Version:**: v0.2, v0.3, and latest v0.3.5 (Dec 2024)
-**Repository:**: mri_reface on NITRC
+**Version:** v0.2, v0.3, and latest v0.3.5 (Dec 2024)
+**Repository:** mri_reface on NITRC
 
 Reface replaces (rather than removes) facial voxels.
 An average face is registered to the subject using ANTs or NiftyReg, and the warped face is blended into the image with bias correction and intensity harmonization.
